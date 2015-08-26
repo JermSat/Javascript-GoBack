@@ -1,0 +1,27 @@
+Continue Browsing Javascript:
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<p onclick="goBack()">Click here to continue browsing.</p>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+</body>
+</html>
+
+   
